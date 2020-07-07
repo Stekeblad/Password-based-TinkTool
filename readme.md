@@ -2,8 +2,8 @@
 
 A simple password-based commandline tool for creating
 [Google Tink cryptographic keys](https://github.com/google/tink) and
-using them to create and verify digital signatures. This is an early
-version with a small feature set and limited error handling.
+using them to create and verify digital signatures. This is also an
+example of how Google Tink can be used in Java.
 
 Current features:
 - Generate new password-protected keys
@@ -28,8 +28,7 @@ this project.
 Google have their tool
 [Tinkey](https://github.com/google/tink/blob/master/docs/TINKEY.md).
 Tinkey is built around saving the keys in a remote key store but I
-wanted something more like GnuPG where your private key is stored
-securely on my computer and protected by a password.
+wanted something where my private key is stored securely on my computer.
 
 ## How it works
 
